@@ -54,14 +54,29 @@ p{
     height:18px;
 }
 .dot {
-    height: 115px;
-    width: 115px;
     border-radius: 50%;
-    border:7px solid var(--color-light);
     display: inline-block;
 }
 .dot h5{
     position:relative;
     top:calc(100%/2 - 12px);
     color:var(--color-light);
+}
+.container-fluid{
+    max-width:800px;
+}
+
+@media screen and (max-width:576px) {
+    .dot{
+        width:160px;
+        height:160px;
+        border:10px solid var(--color-light);
+    }
+}
+@media screen and (min-width:577px) {
+    .dot{
+        width:115px;
+        height:115px;
+        border:7px solid var(--color-light);
+    }
 }
