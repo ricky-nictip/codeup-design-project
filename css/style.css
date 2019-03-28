@@ -1,0 +1,14 @@
+:root{
+    --color-red:#e6563b;
+    --color-orange:#eb9d3a;
+    --color-green:#7cb06c;
+    --color-blue:#00aba9;
+    --color-light:#f0f0f0;
+    --color-muted:#e6e6e6;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Anton', sans-serif;
+}
+p{
+    font-family: 'Abel', sans-serif;
+}
