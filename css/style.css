@@ -10,22 +10,40 @@ h1,h2,h3,h4,h5{
     font-family: 'Anton', sans-serif;
 }
 h1{
-    font-size:64px;
+    font-size:54px;
 }
 h2{
-    font-size:48px;
-}
-h3{
     font-size:40px;
 }
+h3{
+    font-size:34px;
+}
 h4{
-    font-size:32px;
+    font-size:27px;
 }
 h5{
-    font-size:28px;
+    font-size:24px;
 }
 p{
     font-family: 'Abel', sans-serif;
+}
+.cbg-red{
+    background-color:var(--color-red);
+}
+.cbg-orange{
+    background-color:var(--color-orange);
+}
+.cbg-green{
+    background-color:var(--color-green);
+}
+.cbg-blue{
+    background-color:var(--color-blue);
+}
+.cbg-light{
+    background-color:var(--color-light);
+}
+.cbg-muted{
+    background-color:var(--color-muted);
 }
 .logo{
     width:105px;
@@ -34,4 +52,16 @@ p{
 .icons{
     width:18px;
     height:18px;
+}
+.dot {
+    height: 115px;
+    width: 115px;
+    border-radius: 50%;
+    border:7px solid var(--color-light);
+    display: inline-block;
+}
+.dot h5{
+    position:relative;
+    top:calc(100%/2 - 12px);
+    color:var(--color-light);
 }
