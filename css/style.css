@@ -12,3 +12,11 @@ h1,h2,h3,h4,h5{
 p{
     font-family: 'Abel', sans-serif;
 }
+.logo{
+    width:105px;
+    height:105px;
+}
+.icons{
+    width:18px;
+    height:18px;
+}
