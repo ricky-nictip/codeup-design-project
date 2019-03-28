@@ -72,8 +72,9 @@ p{
 .jumbotron img {
     width: 100%;
 }
-.jumbotron {
-
+.jumbotron div{
+    overflow:hidden;
+    height:220px;
 }
 @media screen and (max-width:576px) {
     .dot{
