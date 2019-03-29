@@ -98,10 +98,6 @@ nav{
 .jumbotron img {
     width: 100%;
 }
-.jumbotron div{
-    overflow:hidden;
-    max-height:220px;
-}
 .tinydots{
     width:18px;
     height:18px;
@@ -152,7 +148,7 @@ nav{
         top:2em;
     }
 }
-@media screen and (min-width:577px) {
+@media screen and (min-width:576px) {
     .maindots{
         width:115px;
         height:115px;
