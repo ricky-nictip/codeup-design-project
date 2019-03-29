@@ -7,6 +7,9 @@
     --color-muted:#e6e6e6;
     --color-white:#ffffff;
 }
+span{
+    font-family: 'Anton', sans-serif;
+}
 h1,h2,h3,h4,h5{
     font-family: 'Anton', sans-serif;
 }
@@ -27,6 +30,10 @@ h5{
 }
 p{
     font-family: 'Abel', sans-serif;
+}
+nav{
+    height:4em;
+    margin:2.5em 0 4em 0;
 }
 .cbg-red{
     background-color:var(--color-red);
@@ -53,6 +60,14 @@ p{
     width:105px;
     height:105px;
 }
+#LogoText {
+    display:flex;
+    align-items: center;
+    font-size:2em;
+}
+#LogoText p{
+    margin:0;
+}
 .icons{
     width:18px;
     height:18px;
@@ -69,22 +84,69 @@ p{
 .container-fluid{
     max-width:800px;
 }
+.container-fluid .navRow{
+    width:110%;
+}
+.navCol{
+    display:flex;
+    align-items:center;
+    max-width:fit-content;
+}
+.navCol p{
+    margin:0;
+}
 .jumbotron img {
     width: 100%;
 }
 .jumbotron div{
     overflow:hidden;
-    height:220px;
+    max-height:220px;
+}
+.tinydots{
+    width:18px;
+    height:18px;
+    margin: 0 1px;
+}
+.tinydots span{
+    font-size:.5em;
+    position:relative;
+    top:calc(100%/2 - 14px);
+}
+.tinydotDiv{
+    padding:4px 0;
+}
+#theLast .thumbnail img{
+    position:relative;
+    left:-20%;
+    height:100%
+}
+.TLSpan{
+    font-size:1.3em;
+}
+.thumbnail{
+    border:3px solid var(--color-light);
+    width:40px;
+    height:60px;
+    overflow:hidden;
+}
+.twitterLogo {
+    width:30px;
+    height:30px;
+    float:left;
+}
+.twitterLogo + p{
+    display:inline-block;
+    padding-left:0.5em;
 }
 @media screen and (max-width:576px) {
-    .dot{
+    .maindots{
         width:160px;
         height:160px;
         border:10px solid var(--color-white);
     }
 }
 @media screen and (min-width:577px) {
-    .dot{
+    .maindots{
         width:115px;
         height:115px;
         border:7px solid var(--color-white);
