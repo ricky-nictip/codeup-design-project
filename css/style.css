@@ -135,7 +135,7 @@ nav{
     display:inline-block;
     padding-left:0.5em;
 }
-@media screen and (max-width:576px) {
+@media screen and (max-width:575px) {
     h3{
         font-size:30px;
     }
@@ -149,7 +149,7 @@ nav{
         top:calc(100%/2 - .6em);
     }
     nav{
-        margin:4em 0 8em 0;
+        margin:2.5em 0 8em 0;
     }
     nav .container-fluid{
         position:relative;
@@ -166,7 +166,7 @@ nav{
         border:7px solid var(--color-white);
     }
 }
-@media screen and (min-width:577px) and (max-width:767px) {
+@media screen and (min-width:576px) and (max-width:767px) {
     nav{
         margin:2.5em 0 7em 0;
     }
