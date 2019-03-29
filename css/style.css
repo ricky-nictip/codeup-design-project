@@ -94,6 +94,7 @@ nav{
 }
 .navCol p{
     margin:0;
+    font-size:0.9em;
 }
 .jumbotron img {
     width: 100%;
@@ -135,10 +136,17 @@ nav{
     padding-left:0.5em;
 }
 @media screen and (max-width:576px) {
+    h3{
+        font-size:30px;
+    }
     .maindots{
-        width:160px;
-        height:160px;
-        border:10px solid var(--color-white);
+        width:140px;
+        height:140px;
+        border:7px solid var(--color-white);
+    }
+    .maindots h5{
+        font-size:1.8em;
+        top:calc(100%/2 - .6em);
     }
     nav{
         margin:4em 0 8em 0;
@@ -146,6 +154,9 @@ nav{
     nav .container-fluid{
         position:relative;
         top:2em;
+    }
+    .navCol p{
+        font-size:0.8em;
     }
 }
 @media screen and (min-width:576px) {
